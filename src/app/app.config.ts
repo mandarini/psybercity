@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { ApplicationConfig } from '@angular/core';
+import { ApplicationConfig, isDevMode } from '@angular/core';
 import { RouterModule, provideRouter } from '@angular/router';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
@@ -12,9 +12,16 @@ import { ErrorComponent } from './components/error/error.component';
 import { TalkComponent } from './components/talks/talk/talk.component';
 import { StreamsComponent } from './components/streams/streams.component';
 import { routes } from './app.routes';
+import { provideServiceWorker } from '@angular/service-worker';
 
 export const appConfig: ApplicationConfig = {
-  providers: [provideRouter(routes)],
+  providers: [
+    provideRouter(routes),
+    provideServiceWorker('ngsw-worker.js', {
+      enabled: !isDevMode(),
+      registrationStrategy: 'registerWhenStable:30000',
+    }),
+  ],
 };
 
 @NgModule({
