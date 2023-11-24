@@ -1,0 +1,396 @@
+[
+  {
+    "postType": "Video / Podcast",
+    "link": "https://www.youtube.com/watch?v=dpncw1S1GdI",
+    "title": "Nx 17 Release",
+    "description": "Talking about Vue.",
+    "date": "26 October 2023",
+    "impact": {
+      "value": "1,300",
+      "label": "Views"
+    },
+    "timestamp": "2023-10-25T21:00:00.000Z"
+  },
+  {
+    "postType": "Video / Podcast",
+    "link": "https://www.youtube.com/live/wj-gb6jqyzA?si=IxxKvDPlebyIF4S4",
+    "title": "Nx Live Show for v16.8 release",
+    "description": "All the latest about the latest release. Will be talking about\nVite and Storybook and Vue.",
+    "date": "6 September 2023",
+    "impact": {
+      "value": "1,000",
+      "label": "Views"
+    },
+    "timestamp": "2023-09-05T21:00:00.000Z"
+  },
+  {
+    "postType": "Public Speaking",
+    "link": "https://www.meetup.com/vuejsathens/events/297384418/",
+    "title": "Nxify your Vue and Nuxt Projects",
+    "description": "Using Vue and Nuxt more efficiently",
+    "date": "21 November 2023",
+    "impact": {
+      "value": "25",
+      "label": "People Attended"
+    },
+    "timestamp": "2023-11-20T22:00:00.000Z"
+  },
+  {
+    "postType": "Video / Podcast",
+    "link": "https://open.spotify.com/episode/7a7cAO2UsJ2zaxTEDDg3UI",
+    "title": "The Story about Storybook at Angular Plus show",
+    "description": "Angular + Storybook and how to build better UIs",
+    "date": "22 November 2023",
+    "impact": {
+      "value": "200",
+      "label": "Views"
+    },
+    "timestamp": "2023-11-21T22:00:00.000Z"
+  },
+  {
+    "postType": "Video / Podcast",
+    "link": "https://www.youtube.com/watch?v=dpncw1S1GdI",
+    "title": "Nx 17 Release",
+    "description": "Talking about Vue.",
+    "date": "26 October 2023",
+    "impact": {
+      "value": "1,300",
+      "label": "Views"
+    },
+    "timestamp": "2023-10-25T21:00:00.000Z"
+  },
+  {
+    "postType": "Video / Podcast",
+    "link": "https://www.youtube.com/live/wj-gb6jqyzA?si=IxxKvDPlebyIF4S4",
+    "title": "Nx Live Show for v16.8 release",
+    "description": "All the latest about the latest release. Will be talking about Vite and Storybook and Vue.",
+    "date": "6 September 2023",
+    "impact": {
+      "value": "1,000",
+      "label": "Views"
+    },
+    "timestamp": "2023-09-05T21:00:00.000Z"
+  },
+  {
+    "postType": "Public Speaking",
+    "link": "https://www.meetup.com/vuejsathens/events/297384418/",
+    "title": "Nxify your Vue and Nuxt Projects",
+    "description": "Using Vue and Nuxt more efficiently",
+    "date": "21 November 2023",
+    "impact": {
+      "value": "25",
+      "label": "People Attended"
+    },
+    "timestamp": "2023-11-20T22:00:00.000Z"
+  },
+  {
+    "postType": "Video / Podcast",
+    "link": "https://open.spotify.com/episode/7a7cAO2UsJ2zaxTEDDg3UI",
+    "title": "The Story about Storybook at Angular Plus show",
+    "description": "Angular + Storybook and how to build better UIs",
+    "date": "22 November 2023",
+    "impact": {
+      "value": "200",
+      "label": "Views"
+    },
+    "timestamp": "2023-11-21T22:00:00.000Z"
+  },
+  {
+    "postType": "Public Speaking",
+    "link": "https://www.youtube.com/watch?v=SWlvsDNXCsQ",
+    "title": "Setting up Storybook interaction tests with Nx",
+    "description": "Setting up Storybook interaction tests with Nx",
+    "date": "26 September 2023",
+    "impact": {
+      "value": "150",
+      "label": "People Attended"
+    },
+    "timestamp": "2023-09-25T21:00:00.000Z"
+  },
+  {
+    "postType": "Public Speaking",
+    "link": "https://www.meetup.com/angularnyc/events/296188739/",
+    "title": "Enhancing Docs UX with AI",
+    "description": "In this talk, we'll explore how integrating AI into your documentation site can amplify the user search experience and offer insights for documentation improvement. Understand the synergy between human-curated content and AI-assistance. Learn how AI can provide real-time search assistance, guide users efficiently, and offer valuable feedback to continuously refine and enhance your documentation based on user interactions. Dive into the next level of interactive documentation!",
+    "date": "28 September 2023",
+    "impact": {
+      "value": "30",
+      "label": "People Attended"
+    },
+    "timestamp": "2023-09-27T21:00:00.000Z"
+  },
+  {
+    "postType": "Public Speaking",
+    "link": "https://www.youtube.com/watch?v=HfarG4wswK4",
+    "title": "Streamline Your Vite dev-flow with Nx",
+    "description": "Explore the integration of Nx and Vite in modern web development. This talk sheds light on how Nx’s extensible and powerful tools complement Vite's swift builds, offering an enhanced and efficient development experience. Dive in to learn about the features, benefits, and practical applications of the Nx Vite plugin. Also, cat pictures will enhance your viewing experience.",
+    "date": "4 October 2023",
+    "impact": {
+      "value": "100",
+      "label": "People Attended"
+    },
+    "timestamp": "2023-10-03T21:00:00.000Z"
+  },
+  {
+    "postType": "Written Content",
+    "link": "https://blog.nrwl.io/nx-docs-ai-assistant-433d238e45d4",
+    "title": "https://blog.nrwl.io/nx-docs-ai-assistant-433d238e45d4",
+    "description": "The Nx Docs AI Assistant is a tool designed to provide users with answers straight from the Nx documentation. In this article I will explain how it is built, and how we ensure accuracy and relevance.",
+    "date": "22 November 2023",
+    "impact": {
+      "value": "1,000",
+      "label": "Reads"
+    },
+    "timestamp": "2023-11-21T22:00:00.000Z"
+  },
+  {
+    "postType": "Written Content",
+    "link": "https://pakotinia.medium.com/openais-assistants-api-a-hands-on-demo-110a861cf2d0",
+    "title": "OpenAI’s Assistants API — A hands-on demo",
+    "description": "OpenAI just released the Assistants API, which pretty much simplifies the process of setting up a Q&A system based on a knowledge base for GPT. We'll see how to build your own.",
+    "date": "15 November 2023",
+    "impact": {
+      "value": "100",
+      "label": "Reads"
+    },
+    "timestamp": "2023-11-14T22:00:00.000Z"
+  },
+  {
+    "postType": "Written Content",
+    "link": "https://blog.nrwl.io/storybook-interaction-tests-in-nx-135fdaabc944",
+    "title": "Storybook Interaction Tests in Nx",
+    "description": "Interaction tests allow users to verify the functional aspects of UIs. This is done by supplying the initial state of a component, simulating user behavior such as clicks and form entries, and finally checking if the UI and component state update correctly​. Very much like e2e tests are doing.",
+    "date": "3 August 2023",
+    "impact": {
+      "value": "1,000",
+      "label": "Reads"
+    },
+    "timestamp": "2023-08-02T21:00:00.000Z"
+  },
+  {
+    "postType": "Written Content",
+    "link": "https://blog.nrwl.io/introducing-nx-ecosystem-ci-ad0526d37f83",
+    "title": "Introducing Nx Ecosystem CI",
+    "description": "Ecosystem CI as a way to make sure that the integrations of different OSS tools work correctly together, and ensure robustness",
+    "date": "20 June 2023",
+    "impact": {
+      "value": "100",
+      "label": "Reads"
+    },
+    "timestamp": "2023-06-19T21:00:00.000Z"
+  },
+  {
+    "postType": "Public Speaking",
+    "link": "https://www.meetup.com/angular-athens/events/293446854/",
+    "title": "CityJS Conf pre-event: Meetup Community evening on the terrace",
+    "description": "Organizing a community event pre-conf, where I introduced the speakers, and talked about the latest highlights in the JavaScript and web ecosystem",
+    "date": "29 May 2023",
+    "impact": {
+      "value": "80",
+      "label": "People Attended"
+    },
+    "timestamp": "2023-05-28T21:00:00.000Z"
+  },
+  {
+    "postType": "Public Speaking",
+    "link": "https://greece.cityjsconf.org/",
+    "title": "City JS Conference organizing",
+    "description": "Part of the organizing team of City JS conference in Athens, I connected and mentored with fellow attendees.",
+    "date": "31 May 2023",
+    "impact": {
+      "value": "1,000",
+      "label": "People Attended"
+    },
+    "timestamp": "2023-05-30T21:00:00.000Z"
+  },
+  {
+    "postType": "Video / Podcast",
+    "link": "https://webrush.io/episodes/episode-253-ai-with-katerina-skroumpelou",
+    "title": "AI with Katerina Skroumpelou",
+    "description": "Katerina Skroumpelou join us to talk about her work on implementing AI and chatGPT inside documentation, how well it has worked, and some of the things to consider when using AI for docs.",
+    "date": "28 September 2023",
+    "impact": {
+      "value": "500",
+      "label": "Views"
+    },
+    "timestamp": "2023-09-27T21:00:00.000Z"
+  },
+  {
+    "postType": "Video / Podcast",
+    "link": "https://webrush.io/episodes/episode-247-ecosystem-ci-katerina-skroumpeloution",
+    "title": "Ecosystem CI Katerina Skroumpeloution",
+    "description": "Katerina Skroumpeloution introduces the idea of using an ecosystem CI tool to help diagnose and understand errors, and communicating them to your team.",
+    "date": "17 August 2023",
+    "impact": {
+      "value": "500",
+      "label": "Views"
+    },
+    "timestamp": "2023-08-16T21:00:00.000Z"
+  },
+  {
+    "postType": "Video / Podcast",
+    "link": "https://www.youtube.com/live/9_chJoS-DRw?si=sT3EvvC4do3I0Gg2",
+    "title": "Nx Live Coding with Storybook",
+    "description": "Live coding demo during Nx show and speaking about storybook",
+    "date": "24 May 2023",
+    "impact": {
+      "value": "1,700",
+      "label": "Views"
+    },
+    "timestamp": "2023-05-23T21:00:00.000Z"
+  },
+  {
+    "postType": "Public Speaking",
+    "link": "https://www.youtube.com/watch?v=2JjctvJdUS4",
+    "title": "Storybook 7 in monorepos with Nx",
+    "description": "Monorepos enable you to store multiple packages, such as your app and design system, in a single repository. This makes it easier to work on them simultaneously. Katerina will demonstrate how to use Storybook in monorepos managed with Nx. You'll learn about the Nx-Storybook plugin, which can quickly configure Storybook within a package.",
+    "date": "23 May 2023",
+    "impact": {
+      "value": "2,100",
+      "label": "People Attended"
+    },
+    "timestamp": "2023-05-22T21:00:00.000Z"
+  },
+  {
+    "postType": "Workshops",
+    "description": "I was mentoring a group of students at my old university (School of Architectural Engineering) about how they can make the most out of the Google Maps Platform to support their urban planning projects. I showcased how they can use the API, and the drawing layers to display data, how they can take advantage of the elevation api, etc.",
+    "date": "13 February 2023",
+    "impact": {
+      "value": "20",
+      "label": "People Trained"
+    },
+    "timestamp": "2023-02-12T22:00:00.000Z"
+  },
+  {
+    "postType": "Video / Podcast",
+    "link": "https://www.youtube.com/watch?v=9_chJoS-DRw",
+    "title": "Nx Show - Monorepos, Storybook, Live Coding",
+    "description": "Storybook 7, all the newest features in testing your apps and components, dev tools, interaction testing",
+    "date": "15 March 2023",
+    "impact": {
+      "value": "100",
+      "label": "Views"
+    },
+    "timestamp": "2023-03-14T22:00:00.000Z"
+  },
+  {
+    "postType": "Public Speaking",
+    "link": "https://youtu.be/P0hJm5v8TJw?t=5803",
+    "title": "Managing Storybook on monorepos",
+    "description": "Managing Storybook on monorepos using modern web technologies",
+    "date": "14 March 2023",
+    "impact": {
+      "value": "400",
+      "label": "People Attended"
+    },
+    "timestamp": "2023-03-13T22:00:00.000Z"
+  },
+  {
+    "postType": "Public Speaking",
+    "link": "https://gdg.community.dev/events/details/google-gdg-cyprus-presents-devfest-hellas-2022/",
+    "title": "Making your app fly with Google Maps",
+    "description": "The Google Maps Platform has made leaps of progress over the past few years, and the capabilities it offers go beyond whatever we are used to seeing on the web. With the power of WebGL, your apps and your maps sure do fly. In this presentation, we are going to see some of the cool things that Google Maps offers to the web platform, and how you can really transform your apps using these new powers. Participants will leave wanting to get their hands on the new APIs, and make their apps shine asap.",
+    "date": "26 November 2022",
+    "impact": {
+      "value": "50",
+      "label": "People Attended"
+    },
+    "timestamp": "2022-11-25T22:00:00.000Z"
+  },
+  {
+    "postType": "Workshops",
+    "link": "https://nx.dev/conf#workshop",
+    "title": "Nx Workshop",
+    "description": "I was helping the main hosts of the workshop.\n\nTeaches participants how to use Nx to scale their apps and speed up their development process",
+    "date": "17 October 2022",
+    "impact": {
+      "value": "25",
+      "label": "People Trained"
+    },
+    "timestamp": "2022-10-16T21:00:00.000Z"
+  },
+  {
+    "postType": "Written Content",
+    "link": "https://pakotinia.medium.com/tainted-moments-or-hello-vecna-my-old-friend-cc5336d274d2",
+    "title": "Tainted Moments — or “Hello Vecna my old friend”",
+    "description": "Katerina speaks about her mental health, making analogies with Stranger Things. The reason she shares this is because maybe more people are having the same experiences, and it’s nice to know you’re not alone. Also, it’s good to know that people who are functional and happy and active may still suffer sometimes.",
+    "date": "4 August 2022",
+    "impact": {
+      "value": "500",
+      "label": "Reads"
+    },
+    "timestamp": "2022-08-03T21:00:00.000Z"
+  },
+  {
+    "postType": "Written Content",
+    "link": "https://pakotinia.medium.com/a-demo-for-the-sensor-apis-on-the-web-300b9c31b27d",
+    "title": "A demo for the Sensor APIs on the web",
+    "description": "Demoing the Sensor APIs on the web platform and suggesting uses",
+    "date": "4 October 2022",
+    "impact": {
+      "value": "100",
+      "label": "Reads"
+    },
+    "timestamp": "2022-10-03T21:00:00.000Z"
+  },
+  {
+    "postType": "Video / Podcast",
+    "link": "https://open.spotify.com/episode/0ip5o6ThVqdd3CcpQM68rl",
+    "title": "DevLife Podcast S03E03",
+    "description": "Giving Mental Health a Piece of Your Mind\n\nIn this episode of the Dev.Life we invited Katerina Skroumpelou back on the show to discuss a recent blog article she published about dealing with mental health and depression as a developer or tech professional. Katerina shares her experiences for how she’s coped with these challenges in her own life and how she’s been able to push through it all to make a successful career filled with many great accomplishments",
+    "date": "26 September 2022",
+    "impact": {
+      "value": "500",
+      "label": "Views"
+    },
+    "timestamp": "2022-09-25T21:00:00.000Z"
+  },
+  {
+    "postType": "Video / Podcast",
+    "link": "https://webrush.io/episodes/episode-204-wolves-cats-and-dogsand-the-google-cloud-platform",
+    "title": "Web Rush Episode 204",
+    "description": "Wolves, Cats, and Dogs...and The Google Cloud Platform\n\nTalking about the Google Cloud Platform on WebRush Podcast",
+    "date": "6 October 2022",
+    "impact": {
+      "value": "200",
+      "label": "Views"
+    },
+    "timestamp": "2022-10-05T21:00:00.000Z"
+  },
+  {
+    "postType": "Written Content",
+    "link": "https://blog.nrwl.io/speed-up-storybook-with-vite-and-swc-with-the-help-of-nx-b1e4c488e0fd",
+    "title": "Speed up Storybook with Vite and SWC — with the help of Nx",
+    "description": "How to use Vite and SWC with Storybook",
+    "date": "18 July 2022",
+    "impact": {
+      "value": "100",
+      "label": "Reads"
+    },
+    "timestamp": "2022-07-17T21:00:00.000Z"
+  },
+  {
+    "postType": "Workshops",
+    "link": "https://ti.to/nrwl/nx-workshop-7-2022",
+    "title": "Develop at Scale with Nx",
+    "description": "Develop at scale with Nx, Angular and monorepos",
+    "date": "7 July 2022",
+    "impact": {
+      "value": "25",
+      "label": "People Trained"
+    },
+    "timestamp": "2022-07-06T21:00:00.000Z"
+  },
+  {
+    "postType": "Public Speaking",
+    "link": "https://twitter.com/SantoshYadavDev/status/1542545245522608128",
+    "title": "Twitter Space - Nx & monorepos in the Angular ecosystem",
+    "description": "Twitter Space - General q&A panel about monorepos in the Angular ecosystem with other members of the Angular and the Nx community",
+    "date": "30 June 2022",
+    "impact": {
+      "value": "50",
+      "label": "People Attended"
+    },
+    "timestamp": "2022-06-29T21:00:00.000Z"
+  }
+]
