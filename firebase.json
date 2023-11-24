@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist/psybercity",
+    "public": "dist/psybercity/browser",
     "ignore": [
       "firebase.json",
       "**/.*",

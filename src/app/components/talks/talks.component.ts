@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import talks from '../../../assets/merged-talks.json';
+import talks from '../../../assets/sorted_talks.json';
 import { Talk } from '../../objects/merged-talk';
 
 @Component({

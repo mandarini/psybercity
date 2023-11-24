@@ -1,4 +1,4 @@
-import * as talks from './merged-talks.json';
+import * as talks from './sorted_talks.json';
 import { saveToFile } from './save';
 
 const sortedTalks = talks
@@ -6,7 +6,7 @@ const sortedTalks = talks
   .sort((a, b) => {
     const dateA = new Date(a.timestamp || 0).getTime();
     const dateB = new Date(b.timestamp || 0).getTime();
-    return dateA - dateB;
+    return dateB - dateA;
   });
 
 saveToFile('sorted_talks.json', sortedTalks);
