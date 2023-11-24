@@ -1,0 +1,33 @@
+.home {
+  height: auto;
+  padding: 32px;
+  a,
+  a:link,
+  a:visited {
+    color: rgb(125, 102, 187);
+    font-weight: 500;
+    text-decoration: none;
+  }
+  a:hover,
+  a:active {
+    color: rgb(223, 93, 136);
+  }
+
+  a.storybook {
+    color: rgb(239, 78, 121);
+  }
+
+  section {
+    margin: 48px;
+  }
+}
+
+@media (max-width: 550px) {
+  .home {
+    height: auto;
+    padding: 16px;
+    section {
+      margin: 48px 16px;
+    }
+  }
+}

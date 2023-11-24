@@ -1,0 +1,54 @@
+<section [attr.id]="'talk' + id_talk">
+  <h4>
+    <a [href]="talk.link" target="_blank">{{ talk.title }}</a>
+  </h4>
+  <div *ngIf="talk.conf_info">
+    <p>Location: {{ talk.conf_info.location }}</p>
+    <p>Venue: {{ talk.conf_info.venue }}</p>
+    <p>Date: {{ talk.conf_info.date }}</p>
+  </div>
+  <div class="talk-info" *ngIf="talk.postType !== 'Workshops'">
+    <h5>Talk: {{ talk.title }}</h5>
+    <p>{{ talk.description }}</p>
+  </div>
+  <div class="talk-info" *ngIf="talk.postType === 'Workshops'">
+    <h5>Workshop: {{ talk.title }}</h5>
+    <p>{{ talk.description }}</p>
+    <!-- <p>Participants: {{ talk.workshop.participants }}</p>
+    <p>Duration: {{ talk.workshop.duration }}</p> -->
+  </div>
+  <div class="media" *ngIf="talk.media">
+    <h5>Media</h5>
+    <ul *ngIf="talk">
+      <li *ngIf="talk.media && talk.media.slides">
+        <a [href]="talk.media.slides" target="_blank">Slides</a>
+      </li>
+      <li *ngIf="talk.media && talk.media.code">
+        <a
+          *ngFor="let code of talk.media.code; let i = index"
+          [href]="code"
+          target="_blank"
+          >Code {{ i + 1 }}</a
+        >
+      </li>
+      <li *ngIf="talk.media && talk.media.demo">
+        <a
+          *ngFor="let demo of talk.media.demo; let i = index"
+          [href]="demo"
+          target="_blank"
+          >Demo {{ i + 1 }}</a
+        >
+      </li>
+      <li *ngIf="talk.media && talk.media.video">
+        <a [href]="talk.media.video" target="_blank">Video</a>
+      </li>
+      <li *ngIf="talk.media && talk.media.code">
+        <a [href]="talk.media.code" target="_blank">Docs</a>
+      </li>
+    </ul>
+  </div>
+  <div class="other" *ngIf="talk.extras">
+    <h5>Other Info</h5>
+    <p *ngFor="let extra of talk.extras">{{ extra }}</p>
+  </div>
+</section>

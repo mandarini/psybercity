@@ -1,14 +1,17 @@
 import { Component } from '@angular/core';
+import { MediaWidthService } from './services/media-width.service';
 import { CommonModule } from '@angular/common';
-import { RouterOutlet } from '@angular/router';
+import { RouterOutlet, RouterLink, RouterLinkActive } from '@angular/router';
 
 @Component({
   selector: 'app-root',
-  standalone: true,
-  imports: [CommonModule, RouterOutlet],
+  imports: [CommonModule, RouterOutlet, RouterLink, RouterLinkActive],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+  styleUrls: ['./app.component.scss'],
+  standalone: true,
 })
 export class AppComponent {
   title = 'psybercity';
+  width = this.mediaWidth.getTypeOfDevice();
+  constructor(public mediaWidth: MediaWidthService) {}
 }
