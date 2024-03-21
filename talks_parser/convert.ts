@@ -67,4 +67,4 @@ function getImpactLabel(type?: string | null): string | undefined {
   }
 }
 
-saveToFile('merged-talks.json', convertToTalks(allTalks));
+saveToFile('talks.json', convertToTalks(allTalks));

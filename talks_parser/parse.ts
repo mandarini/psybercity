@@ -20,26 +20,27 @@ function parseHTML(htmlString: string) {
   const doc = dom.window.document;
 
   // The rest of the function remains the same
-  const tiles = doc.querySelectorAll('activity-tile');
+  const tiles = doc.querySelectorAll('advocu-ui-activity-tile');
   const activities: Activity[] = Array.from(tiles).map((tile) => {
     return {
-      title: (tile as any)?.querySelector('h1 a')?.textContent.trim(),
-      url: (tile as any)?.querySelector('h1 a')?.getAttribute('href'),
-      type: (tile as any)?.querySelector('.post__type')?.textContent.trim(),
+      title: (tile as any)?.querySelector('h2 a')?.textContent.trim(),
+      url: (tile as any)?.querySelector('h2 a')?.getAttribute('href'),
+      type: (tile as any)?.querySelector('.slug')?.textContent.trim(),
       date: (tile as any)
-        ?.querySelector('.post__meta .date')
+        ?.querySelector('advocu-schema-preview-item')
         ?.textContent.trim(),
       description: (tile as any)
-        ?.querySelector('.description p')
+        ?.querySelector('advocu-sneak-peak p')
         ?.textContent.trim(),
       imageUrl: (tile as any)
-        ?.querySelector('.activity-image img')
+        ?.querySelector('.image img')
         ?.getAttribute('src'),
       views: (tile as any)?.querySelector('.impact .value')?.textContent.trim(),
-      author: (tile as any)?.querySelector('.author__name')?.textContent.trim(),
-      submissionDate: (tile as any)
-        ?.querySelector('.date__submitted span')
-        ?.textContent.trim(),
+      author: "Katerina Skroumpelou",
+      // author: (tile as any)?.querySelector('.author__name')?.textContent.trim(),
+      // submissionDate: (tile as any)
+      //   ?.querySelector('.date__submitted span')
+      //   ?.textContent.trim(),
     };
   });
 
