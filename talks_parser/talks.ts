@@ -1,4 +1,4 @@
-export const allTalks = [
+export default [
   {
     title: 'Monorepos — Why Speed Matters',
     url: 'https://blog.nrwl.io/monorepos-why-speed-matters-e74293ae697b',
@@ -12,7 +12,7 @@ export const allTalks = [
     title: 'Nx Docs AI Assistant',
     url: 'https://blog.nrwl.io/nx-docs-ai-assistant-433d238e45d4',
     type: 'Content-creation',
-    date: '21 November 2024',
+    date: '21 November 2023',
     description: 'How we built the docs AI assistant',
     views: '100 Readers',
     author: 'Katerina Skroumpelou',
@@ -21,7 +21,7 @@ export const allTalks = [
     title: 'OpenAI’s Assistants API — A hands-on demo',
     url: 'https://pakotinia.medium.com/openais-assistants-api-a-hands-on-demo-110a861cf2d0',
     type: 'Content-creation',
-    date: '15 November 2024',
+    date: '15 November 2023',
     description: 'OpenAI Assistant API demo.',
     views: '100 Readers',
     author: 'Katerina Skroumpelou',
@@ -77,7 +77,7 @@ export const allTalks = [
       'Transforming Angular Development with Nx: Efficiency, Scalability, and Beyond',
     url: 'https://www.meetup.com/angular-athens/events/297342102/',
     type: 'Public-speaking',
-    date: '28 November 2024',
+    date: '28 November 2023',
     description:
       'Making the most out of your Angular application, how to scale and how to extend, using Nx.',
     imageUrl:

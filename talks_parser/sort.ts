@@ -1,4 +1,4 @@
-import * as talks from './sorted_talks.json';
+import * as talks from './talks-converted.json';
 import { saveToFile } from './save';
 
 const sortedTalks = talks

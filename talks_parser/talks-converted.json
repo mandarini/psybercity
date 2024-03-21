@@ -1,0 +1,89 @@
+[
+  {
+    "postType": "Content-creation",
+    "link": "https://blog.nrwl.io/monorepos-why-speed-matters-e74293ae697b",
+    "title": "Monorepos — Why Speed Matters",
+    "description": "How we make Angular monorepos faster with Nx",
+    "date": "20 March 2024",
+    "impact": {
+      "value": "200 Readers"
+    },
+    "timestamp": "2024-03-20T06:00:00.000Z"
+  },
+  {
+    "postType": "Content-creation",
+    "link": "https://blog.nrwl.io/nx-docs-ai-assistant-433d238e45d4",
+    "title": "Nx Docs AI Assistant",
+    "description": "How we built the docs AI assistant",
+    "date": "21 November 2023",
+    "impact": {
+      "value": "100 Readers"
+    },
+    "timestamp": "2023-11-21T07:00:00.000Z"
+  },
+  {
+    "postType": "Content-creation",
+    "link": "https://pakotinia.medium.com/openais-assistants-api-a-hands-on-demo-110a861cf2d0",
+    "title": "OpenAI’s Assistants API — A hands-on demo",
+    "description": "OpenAI Assistant API demo.",
+    "date": "15 November 2023",
+    "impact": {
+      "value": "100 Readers"
+    },
+    "timestamp": "2023-11-15T07:00:00.000Z"
+  },
+  {
+    "postType": "Public-speaking",
+    "link": "https://ng-conf.org/sessions/",
+    "title": "Enhance Your Docs UX with AI: A Hands-On Workshop for Angular",
+    "description": "1-hour workshop designed to elevate your documentation through the power of Generative AI. Drawing upon real-world results from Nx's recently launched AI Assistant, this session offers a unique blend of theory and practice to give you actionable insights into improving your Angular docs.",
+    "date": "20 March 2024",
+    "impact": {
+      "value": "100 Attendees"
+    },
+    "timestamp": "2024-03-20T06:00:00.000Z"
+  },
+  {
+    "postType": "Youtube-video",
+    "link": "https://www.youtube.com/watch?v=uHwUxFYX2DY",
+    "title": "@nx/nuxt Live!! With Nuxt maintainer Daniel Roe!!",
+    "date": "7 February 2024",
+    "impact": {
+      "value": "16 Likes"
+    },
+    "timestamp": "2024-02-07T07:00:00.000Z"
+  },
+  {
+    "postType": "Public-speaking",
+    "link": "https://www.youtube.com/watch?v=OXXTUjSO1hs",
+    "title": "Nx Live Stream - Updates for new version",
+    "description": "Updating about the new version of Nx, all the new Angular features",
+    "date": "10 January 2024",
+    "impact": {
+      "value": "500 Attendees"
+    },
+    "timestamp": "2024-01-10T07:00:00.000Z"
+  },
+  {
+    "postType": "Public-speaking",
+    "link": "https://www.ng-ind.com/#agenda",
+    "title": "Scale your Angular apps with Nx",
+    "description": "In this talk, we'll explore how Nx can transform your Angular development, making it more efficient and scalable. We'll discuss how you can grow your project from a small setup to a large monorepo using Nx. You'll learn how to organize your workspace into libraries and set rules for better teamwork, whether you're working on a single project or a...",
+    "date": "9 February 2024",
+    "impact": {
+      "value": "400 Attendees"
+    },
+    "timestamp": "2024-02-09T07:00:00.000Z"
+  },
+  {
+    "postType": "Public-speaking",
+    "link": "https://www.meetup.com/angular-athens/events/297342102/",
+    "title": "Transforming Angular Development with Nx: Efficiency, Scalability, and Beyond",
+    "description": "Making the most out of your Angular application, how to scale and how to extend, using Nx.",
+    "date": "28 November 2023",
+    "impact": {
+      "value": "100 Attendees"
+    },
+    "timestamp": "2023-11-28T07:00:00.000Z"
+  }
+]

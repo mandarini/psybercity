@@ -1,6 +1,6 @@
 import { Activity } from './parse';
 import { saveToFile } from './save';
-import { allTalks } from './talks';
+import allTalks from './talks';
 
 export interface Talk {
   postType: string;
@@ -67,4 +67,4 @@ function getImpactLabel(type?: string | null): string | undefined {
   }
 }
 
-saveToFile('talks.json', convertToTalks(allTalks));
+saveToFile('talks-converted.json', convertToTalks(allTalks));
